@@ -1,0 +1,15 @@
+.top-pattern {
+  width: 47.92%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 425px) {
+  .top-pattern {
+    transform: translateY(-20%);
+  }
+}
